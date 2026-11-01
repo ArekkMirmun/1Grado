@@ -11,9 +11,9 @@ int main() {
    int tamn_grande = 0, tamn_peque = 0, inicio_busq = 0;
    bool char_encontrados = false;
 
-   cout << "Comprobador contiene debil \n";
-   cout << "Introduce una secuencia grande y otra peque delimitadas por " << TERMINADOR;
-   cout << "\n Ejemplo: destino#si#  Resultado: Si lo contiene\n";
+   cout << "Comprobador contiene débil \n";
+   cout << "Introduce una secuencia grande y otra pequeña delimitadas por " << TERMINADOR;
+   cout << "\n Ejemplo: destino#si#  Resultado: Sí lo contiene\n";
    do {
       car = cin.get();
 
@@ -36,8 +36,8 @@ int main() {
       char_encontrados = false;
       for (int j = inicio_busq; j < tamn_grande && !char_encontrados; j++) {
          if (grande[j] == peque[i]) {
-            // Si encuentra un caracter, para el proximo, empieza a buscar a partir de esa posicion.
-            // Asi nos aseguramos encontrarlos en orden.
+            // Si encuentra un carácter, para el próximo, empieza a buscar a partir de esa posición.
+            // Así nos aseguramos encontrarlos en orden.
             char_encontrados = true;
             inicio_busq = j + 1;
          }

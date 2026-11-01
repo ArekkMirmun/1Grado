@@ -12,7 +12,7 @@ int main()
    int array_pos_org = 0, array_pos_sust = 0, array_pos_modf = 0;
 
    cout << "Introduce la cadena de caracteres original, "
-        << "por lo que sustituiremos el termino, y el termino "
+        << "por lo que sustituiremos el término, y el término "
         << "separados por # en este formato: aaaaa#aaaa#a: \n";
 
    do

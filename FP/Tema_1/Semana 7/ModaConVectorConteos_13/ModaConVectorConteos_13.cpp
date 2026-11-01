@@ -14,8 +14,8 @@ int main() {
 
    // He decidido tomar este enfoque porque he pensado que, con casting, me ahorro
    // bastantes variables, y no hace falta declarar un vector absurdamente, si guardamos
-   // en el indice i de cada caracter ascii las veces que ha sido encontrado.
-   // Ademas, podemos ir calculandolo conforme se van leyendo, y no hace falta recorrer el vector siquiera.
+   // en el índice i de cada carácter ASCII las veces que ha sido encontrado.
+   // Además, podemos ir calculándolo conforme se van leyendo, y no hace falta recorrer el vector siquiera.
 
    cout << "Moda usando un vector de conteos.\n\n"
         << "Introduce caracteres con terminador " << TERMINADOR << "\n\n";

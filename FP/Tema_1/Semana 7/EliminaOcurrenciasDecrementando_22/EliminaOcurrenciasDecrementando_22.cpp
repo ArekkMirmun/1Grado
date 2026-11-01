@@ -11,8 +11,8 @@ int main() {
    int pos_actual = 0, tamano_vector, despl = 0;
 
    cout << "Eliminar ocurrencias de una componente \n";
-   cout << "\n Ejemplo: maaovaiala#a   Resultado: movil \n";
-   cout << "Introduce el vector acabado en " << TERMINADOR << " y luego el caracter a borrar: ";
+   cout << "\n Ejemplo: maaovaiala#a   Resultado: móvil \n";
+   cout << "Introduce el vector acabado en " << TERMINADOR << " y luego el carácter a borrar: ";
 
    do {
       car = cin.get();
@@ -28,8 +28,8 @@ int main() {
 
    for (int i = tamano_vector - 1; i >= 0; i--) {
       if (vector[i] == car_a_borrar) {
-         // Si encuentro el caracter a borrar, me voy a la posicion inmediatamente posterior, y
-         // recorro desde esa posicion hasta el final, moviendolos todos hacia la izquierda
+         // Si encuentro el carácter a borrar, me voy a la posición inmediatamente posterior, y
+         // recorro desde esa posición hasta el final, moviéndolos todos hacia la izquierda
          for (int j = i + 1; j < tamano_vector; j++) {
             vector[j - 1] = vector[j];
          }
@@ -43,6 +43,6 @@ int main() {
          cout << vector[i];
       }
    } else {
-      cout << "Vector vacio";
+      cout << "Vector vacío";
    }
 }
